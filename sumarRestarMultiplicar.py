@@ -17,3 +17,13 @@ if __name__ == "__main__":
   num2 = float(input("Ingrese el segundo número: "))
   resultado = restar(num1, num2)
   print("La resta es:", resultado)
+
+def multiplicar(a, b):
+  return a * b
+
+if __name__ == "__main__":
+  num1 = float(input("Ingrese el primer número: "))
+  num2 = float(input("Ingrese el segundo número: "))
+  resultado = multiplicar(num1, num2)
+  print("La multiplicación es:", resultado)
+  
